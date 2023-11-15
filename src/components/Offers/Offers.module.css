@@ -1,0 +1,56 @@
+.offers {
+	max-width: 1280px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row-reverse;
+	margin: auto;
+	padding: 20px 30px;
+	margin-bottom: 160px;
+}
+.left {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.left h1 {
+	color: var(--black);
+	font-size: 60px;
+	font-weight: 700;
+}
+.left p {
+	color: var(--black);
+	font-size: 26px;
+	font-weight: 600;
+}
+.left button {
+	width: 282px;
+	height: 70px;
+	border-radius: 35px;
+	background: var(--red);
+	border: none;
+	color: var(--white);
+	font-weight: 500;
+	margin-top: 35px;
+	cursor: pointer;
+	font-size: 18px;
+	transition: all 0.2s ease-in-out;
+}
+.left button:hover {
+	font-size: 17.5px;
+	background: var(--red-hover);
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.right {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.right img {
+	object-fit: cover;
+	width: 500px;
+	height: 500px;
+	background-repeat: no-repeat;
+}

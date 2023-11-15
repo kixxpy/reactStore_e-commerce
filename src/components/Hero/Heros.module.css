@@ -1,9 +1,11 @@
 .hero {
-	height: 100vh;
+	padding: 50px 0;
 	display: flex;
-	background-image: url(../assets/women-w.jpeg);
+	align-items: flex-end;
 	background-repeat: no-repeat;
 	object-fit: cover;
+	padding: 0 30px;
+
 
 }
 .left {
@@ -12,7 +14,6 @@
 	flex-direction: column;
 	justify-content: center;
 	gap: 20px;
-	padding-left: 130px;
 	line-height: 1.1;
 }
 .left h2 {
@@ -22,7 +23,7 @@
 }
 .left p {
 	color: var(--black);
-	font-size: 90px;
+	font-size: 80px;
 	font-weight: 700;
 }
 .hend_icon {
@@ -53,4 +54,16 @@
 	background: var(--red-hover);
 	box-shadow: 1px ;
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.right {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.right img {
+	object-fit: cover;
+	width: 642px;
+	height: 465px;
+	background-repeat: no-repeat;
 }

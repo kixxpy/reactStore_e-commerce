@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from './Heros.module.css';
 import arrow_icon from '../assets/arrow.png'
+import women from '../assets/women-cbcb.png'
 
 export const Hero = () => {
 	return (
+		// Главный банер
 		<div className={styles.hero}>
 			<div className={styles.left}>
 				<h2>NEEW ARRIVALS ONLY</h2>
@@ -18,6 +20,9 @@ export const Hero = () => {
 					<div>Latest Collection</div>
 					<img src={arrow_icon} alt="arrow_icon" />
 				</div>
+			</div>
+			<div className={styles.right}>
+				<img src={women} alt="women" />
 			</div>
 
 		</div>

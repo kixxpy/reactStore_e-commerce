@@ -15,6 +15,7 @@ export const Navbar = () => {
 			<ul className={styles.menu}>
 				<li onClick={() => setMenu('shop')}>
 					<Link to="/">Shop</Link>
+					{/* Выбраному блоку добавляется дотчеркивание */}
 					{menu === 'shop' ? <hr /> : <></>}
 				</li>
 				<li onClick={() => setMenu('men')}><Link to='/mens'>Men</Link>{menu === 'men' ? <hr /> : <></>}</li>

@@ -1,9 +1,9 @@
 
 .navbar {
 	display: flex;
-	justify-content: space-around;
-	padding: 0 20px;
-	border-bottom: 1px solid var(--grey);
+	justify-content: space-between;
+	padding: 0 30px;
+	border-bottom: 1px solid var(--light-grey);
 }
 .logo {
 	display: flex;
@@ -64,16 +64,18 @@
 	font-weight: 400;
 	background: var(--white);
 	cursor: pointer;
-	transition: all 0.2s ease-in-out;
+	transition: all 0.3s ease-in-out;
 	font-size: 14px;
 }
 .cart button:active {
-	background: var(--light-grey);
-	color: var(--black);
+	background: var(--red);
+	color: var(--white);
+	border: 1px solid var(--red);
 }
 .cart button:hover {
-	background: var(--light-grey);
-	color: var(--black);
+	background: var(--red);
+	color: var(--white);
+	border: 1px solid var(--red);
 }
 .count {
 	width: 22px;

@@ -10,6 +10,7 @@ export const Popular = () => {
 			<hr />
 			<div className={styles.item}>
 				{data_product.map((item) => {
+					// Пердача пропов в карточку
 					return <Item key={item.id} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />
 				})}
 			</div>

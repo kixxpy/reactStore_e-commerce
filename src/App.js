@@ -13,6 +13,7 @@ function App() {
 			<BrowserRouter>
 				<Navbar />
 				<Routes>
+				  {/* Путь зависит от выбранной категории */}
 					<Route path="/" element={<Shop />} />
 					<Route path="/mens" element={<ShopCategory caregory="men" />} />
 					<Route path="/womens" element={<ShopCategory caregory="women" />} />
