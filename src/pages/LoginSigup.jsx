@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './css/LoginSigup.module.css';
 export const LoginSigup = () => {
 	return (
-		<div className={styles.loginsgiup}>
+		<div className={styles.loginsiup}>
 			<div className={styles.container}>
 				<h1>Sing Up</h1>
 				<div className={styles.fields}>
