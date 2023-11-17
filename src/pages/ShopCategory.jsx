@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import styles from './css/ShopCategory.module.css';
 import { ShopContext } from '../context/ShopContext';
 import dropdown_icon from '../components/assets/dropdown_icon.png';
@@ -15,7 +15,8 @@ export const ShopCategory = (props) => {
 					<span>Showing 1-12</span> out of 36 products
 				</p>
 				<div className={styles.sort}>
-					Sort by <img src={dropdown_icon} alt="" />
+					<div>Sort by </div>
+					<div><img src={dropdown_icon} alt="" /></div>
 				</div>
 			</div>
 			<div className={styles.products}>
@@ -35,6 +36,9 @@ export const ShopCategory = (props) => {
 						return null;
 					}
 				})}
+			</div>
+			<div className={styles.loarmore}>
+				Explore More
 			</div>
 		</div>
 	);

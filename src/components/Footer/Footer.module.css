@@ -25,15 +25,13 @@
 	display: flex;
 	gap: 20px;
 }
+
 .social_icon_container {
 	padding: 10px;
 	padding-bottom: 6px;
 	background: var(--white);
 	border: 1px solid var(--black);
 	cursor: pointer;
-}
-.social_icon_container:hover {
-	border: 1px solid var(--red);
 }
 .copyright {
 	display: flex;

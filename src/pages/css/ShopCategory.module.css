@@ -1,0 +1,44 @@
+.shop_category img {
+	max-width: 1280px;
+	display: block;
+	background-repeat: no-repeat;
+	object-fit: cover;
+}
+.index_sort {
+	display: flex;
+	margin: 30px 30px;
+	justify-content: space-between;
+	align-items: center;
+}
+.index_sort p span {
+	font-weight: 600;
+}
+.sort {
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	border-radius: 40px;
+	border: 1px solid var(--grey);
+	gap: 5px;
+	cursor: pointer;
+}
+.products {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 30px;
+	padding: 10px;
+}
+.loarmore {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 150px auto;
+	width: 223px;
+	height: 69px;
+	border-radius: 75px;
+	background: var(--red);
+	color: var(--white);
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+}
