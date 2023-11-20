@@ -2,10 +2,11 @@ import React from 'react';
 import styles from './ProductDisplay.module.css';
 import star_icon from '../assets/star_icon.png';
 import star_dull_icon from '../assets/star_dull_icon.png';
+import { ShopContext } from '../../context/ShopContext';
 
 export const ProductDisplay = (props) => {
 	const { product } = props;
-
+	const { addToCart } = React.useContext(ShopContext);
 	return (
 		<div className={styles.productdisplay}>
 			<div className={styles.left}>
@@ -33,7 +34,9 @@ export const ProductDisplay = (props) => {
 					<div className={styles.new_price}>${product.new_price}</div>
 				</div>
 				<div className={styles.description}>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officia incidunt quas, vitae sit temporibus. Deserunt aspernatur ex mollitia velit, dicta perferendis consequuntur provident molestiae illo officia! Quaerat, quisquam illo!
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officia incidunt quas,
+					vitae sit temporibus. Deserunt aspernatur ex mollitia velit, dicta perferendis
+					consequuntur provident molestiae illo officia! Quaerat, quisquam illo!
 				</div>
 				<div className={styles.size}>
 					<h1>Select Size</h1>
@@ -45,9 +48,13 @@ export const ProductDisplay = (props) => {
 						<div>XXL</div>
 					</div>
 				</div>
-				<button>ADD TO CART</button>
-				<p className={styles.category}><span>Category: </span>Women, T-Shirt, Crop Top</p>
-				<p className={styles.category}><span>Tags: </span>Modern, Latest</p>
+				<button onClick={() => addToCart(product.id)}>ADD TO CART</button>
+				<p className={styles.category}>
+					<span>Category: </span>Women, T-Shirt, Crop Top
+				</p>
+				<p className={styles.category}>
+					<span>Tags: </span>Modern, Latest
+				</p>
 			</div>
 		</div>
 	);

@@ -85,6 +85,9 @@
 	outline: none;
 	cursor: pointer;
 }
+.right button:hover {
+	background: var(--red-hover);
+}
 .category {
 	margin-top: 10px;
 }
