@@ -12,7 +12,7 @@ export const Navbar = () => {
 	return (
 		<div className={styles.navbar}>
 			<div className={styles.logo}>
-				<img src={logo} alt="logo" />
+				<Link to='/'><img onClick={() => setMenu('shop')} src={logo} alt="logo" /></Link>
 			</div>
 			<ul className={styles.menu}>
 				<li onClick={() => setMenu('shop')}>

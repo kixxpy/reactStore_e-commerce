@@ -1,0 +1,25 @@
+.cart_empty {
+	margin: 100px 0;
+	max-width: 1280px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 20px;
+}
+.cart_empty h2 {
+	font-size: 34px;
+	font-weight: 700;
+	color: var(--black);
+}
+.cart_empty p {
+	font-size: 18px;
+	color: var(--black);
+	font-weight: 500;
+}
+.cart_empty p a {
+	color: var(--red);
+}
+.cart_empty p a:hover {
+	color: var(--red-hover);
+}
