@@ -4,23 +4,24 @@
 }
 .item p {
 	margin: 6px 0;
+	color: var(--grey);
 }
 .prices {
 	display: flex;
 	gap: 20px;
 }
 .price_new {
-	color: var(--black);
+	color: var(--grey);
 	font-size: 18px;
 	font-weight: 600;
 }
 .price_old {
-	color: var(--grey);
+	color: var(--light-grey);
 	font-size: 16px;
 	font-weight: 500;
 	text-decoration: line-through;
 }
 .item:hover {
 	transform: scale(1.030);
-	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	box-shadow: rgba(155, 165, 149, 0.2) 0px 8px 24px;
 }

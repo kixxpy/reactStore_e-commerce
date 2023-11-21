@@ -1,54 +1,57 @@
 .newsletter {
-	margin: 30px 0;
 	max-width: 1280px;
-	padding: 150px 30px;
+	padding: 150px 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	gap: 30px;
+	background-image: linear-gradient(to right bottom, #ffffff, #efefef, #dfdfdf, #cfcfcf, #bfbfbf, #bfbfbf, #bfbfbf, #bfbfbf, #cfcfcf, #dfdfdf, #efefef, #ffffff);
 }
 .newsletter h1 {
-	font-size: 50px;
-	color: var(--darck);
-	font-weight: 700;
+	font-size: 60px;
+	color: var(--grey);
+	font-weight: 600;
 }
 .newsletter p{
-	font-size: 20px;
+	font-size: 26px;
 	font-weight: 500;
-	color: var(--black);
+	color: var(--grey);
 }
 .newsletter div {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background: var(--white);
+	background: var(--black);
 	max-width: 730px;
 	height: 70px;
 	border-radius: 80px;
-	border: 1px solid var(--grey);
+}
+.newsletter input::placeholder {
+	color: var(--white);
 }
 .newsletter input {
+	background-color: var(--black);
 	width: 500px;
 	margin-left: 30px;
 	border: none;
 	outline: none;
-	color: var(--grey);
+	color: var(--white);
 	font-size: 16px;
 }
 .btn {
-	background: var(--red);
-	color: var(--white);
+	background: var(--green);
+	color: var(--black);
 	width: 210px;
 	height: 70px;
 	border-radius: 80px;
-	font-size: 16px;
+	font-size: 18px;
+	font-weight: 400;
 	border: none;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
+	border: 1px solid var(--black);
 }
 .btn:hover {
-	font-size: 15.5px;
-	background: var(--red-hover);
-	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px
+	background: var(--green-hover);
 }

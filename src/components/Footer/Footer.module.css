@@ -6,19 +6,22 @@
 	align-items: center;
 	gap: 20px;
 	padding: 20px 0; 
+	background: var(--black);
 }
 .link {
 	display: flex;
 	gap: 50px;
-	color: var(--grey);
+	color: var(--white);
 	font-size: 18px;
 	transition: all 0.2s ease-in-out;
 }
+
 .link li {
 	cursor: pointer;
+	transition: all 0.2s ease-in-out;
 }
 .link li:hover {
-	color: var(--black);
+	color: var(--light-grey);
 }
 .social_icon {
 	display: flex;
@@ -28,8 +31,7 @@
 .social_icon_container {
 	padding: 10px;
 	padding-bottom: 6px;
-	background: var(--white);
-	border: 1px solid var(--black);
+	background: var(--black);
 	cursor: pointer;
 }
 .copyright {
@@ -38,11 +40,10 @@
 	align-items: center;
 	gap: 30px;
 	width: 100%;
-	margin-bottom: 30px;
-	color: var(--black);
+	color: var(--white);
 	font-size: 20px;
 }
 .copyright p {
-	color: var(--black);
+	color: var(--white);
 	font-size: 18px;
 }

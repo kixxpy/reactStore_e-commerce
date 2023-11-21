@@ -1,18 +1,24 @@
 
 .navbar {
+	max-width: 1280px;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 30px;
+	padding: 15px 50px;
 	border-bottom: 1px solid var(--light-grey);
+	background: var(--white);
 }
 .logo {
 	display: flex;
 	align-items: center;
 	gap: 10px;
 }
-.logo img {
-	width: 110px;
-	height: 110px;
+.logo_styles {
+	font-size: 28px;
+	font-weight: 500;
+	color: var(--black);
+}
+.logo_styles span {
+	color: var(--light-grey)
 }
 .menu {
 	display: flex;
@@ -35,15 +41,12 @@
 	gap: 3px;
 	cursor: pointer;
 }
-.menu a:hover {
-	color: var(--black);
-}
 .menu hr {
 	border: none;
 	width: 80%;
-	height: 3px;
+	height: 2px;
 	border-radius: 10px;
-	background: var(--red);
+	background: var(--green);
 }
 .cart {
 	display: flex;
@@ -67,16 +70,6 @@
 	transition: all 0.3s ease-in-out;
 	font-size: 14px;
 }
-.cart button:active {
-	background: var(--red);
-	color: var(--white);
-	border: 1px solid var(--red);
-}
-.cart button:hover {
-	background: var(--red);
-	color: var(--white);
-	border: 1px solid var(--red);
-}
 .count {
 	width: 22px;
 	height: 22px;
@@ -87,7 +80,6 @@
 	margin-left: -54px;
 	border-radius: 11px;
 	font-style: 14px;
-	background: var(--red);
-	color: var(--white);
-
+	background: var(--green);
+	color: var(--black);
 }

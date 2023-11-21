@@ -1,0 +1,18 @@
+.button {
+	padding: 15px 20px;
+	font-size: 22px;
+	font-weight: 500;
+	width: 310px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	color: var(--grey);
+	background: var(--green);
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+.button:hover {
+	background: var(--green-hover);
+}

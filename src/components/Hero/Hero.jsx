@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Heros.module.css';
-import arrow_icon from '../assets/arrow.png'
-import women from '../assets/women-cbcb.png'
+import women from '../assets/women-cbcb.png';
+import {Button} from '../Button/Button';
 
 export const Hero = () => {
 	return (
@@ -16,15 +16,11 @@ export const Hero = () => {
 					<p>collection</p>
 					<p>for everyone</p>
 				</div>
-				<div className={styles.latest_btn}>
-					<div>Latest Collection</div>
-					<img src={arrow_icon} alt="arrow_icon" />
-				</div>
+				<Button text={'Latest Collection'} />
 			</div>
 			<div className={styles.right}>
 				<img src={women} alt="women" />
 			</div>
-
 		</div>
 	);
 };

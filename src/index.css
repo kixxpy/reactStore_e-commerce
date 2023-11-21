@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 :root {
-	--black: #1a1a1d;
+	--black: #000;
 	--white: #fff;
 	--red: #c3073f;
 	--red-hover: #b9053b;
-	--grey: #4e4e50;
-	--light-grey: #f0f0f0;
+	--grey: #141718;
+	--light-grey: #6C7275;
+	--green: #38CB89;
+	--green-hover: #32b77b;
 }
 
 * {
@@ -15,7 +18,7 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style: none;
-	font-family: 'JetBrains Mono', monospace;
+	font-family: 'Poppins', sans-serif;
 }
 body {
   -webkit-font-smoothing: antialiased;
