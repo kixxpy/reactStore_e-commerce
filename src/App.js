@@ -7,6 +7,7 @@ import { Product } from './pages/Product.jsx';
 import { Cart } from './pages/Cart.jsx';
 import { LoginSigup } from './pages/LoginSigup.jsx';
 import { Footer } from './components/Footer/Footer.jsx';
+import { Notification } from './components/Notification/Notification.jsx';
 //img
 import men_banner from './components/assets/banner_mens.png';
 import women_banner from './components/assets/banner_women.png';
@@ -16,6 +17,7 @@ function App() {
 	return (
 		<div className="app">
 			<BrowserRouter>
+				<Notification/>
 				<Navbar />
 				<Routes>
 					{/* Путь зависит от выбранной категории */}

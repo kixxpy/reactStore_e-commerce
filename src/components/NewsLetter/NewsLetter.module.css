@@ -6,14 +6,28 @@
 	align-items: center;
 	justify-content: center;
 	gap: 30px;
-	background-image: linear-gradient(to right bottom, #ffffff, #efefef, #dfdfdf, #cfcfcf, #bfbfbf, #bfbfbf, #bfbfbf, #bfbfbf, #cfcfcf, #dfdfdf, #efefef, #ffffff);
+	background-image: linear-gradient(
+		to right bottom,
+		#ffffff,
+		#efefef,
+		#dfdfdf,
+		#cfcfcf,
+		#bfbfbf,
+		#bfbfbf,
+		#bfbfbf,
+		#bfbfbf,
+		#cfcfcf,
+		#dfdfdf,
+		#efefef,
+		#ffffff
+	);
 }
 .newsletter h1 {
 	font-size: 60px;
 	color: var(--grey);
 	font-weight: 600;
 }
-.newsletter p{
+.newsletter p {
 	font-size: 26px;
 	font-weight: 500;
 	color: var(--grey);
@@ -54,4 +68,80 @@
 }
 .btn:hover {
 	background: var(--green-hover);
+}
+@media only screen and (max-width: 1279px) {
+	.newsletter h1 {
+		font-size: 50px;
+	}
+	.newsletter p {
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.newsletter input {
+		width: 400px;
+	}
+	.newsletter {
+		padding: 70px 50px;
+	}
+}
+@media only screen and (max-width: 765px) {
+	.newsletter input {
+		width: 300px;
+	}
+	.newsletter {
+		padding: 50px 20px;
+		text-align: center;
+	}
+	.newsletter h1 {
+		font-size: 40px;
+	}
+	.newsletter p {
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.newsletter h1 {
+		font-size: 40px;
+	}
+	.newsletter p {
+		font-size: 20px;
+		font-weight: 500;
+		color: var(--grey);
+	}
+	.newsletter {
+		padding: 30px 10px;
+	}
+	.newsletter div {
+		height: 60px;
+	}
+	.newsletter input {
+		width: 160px;
+		font-size: 13px;
+	}
+	.btn {
+		width: 130px;
+		height: 60px;
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width: 419px) {
+	.newsletter h1 {
+		font-size: 28px;
+	}
+	.newsletter p {
+		font-size: 12px;
+	}
+	.newsletter div {
+		height: 40px;
+	}
+	.newsletter input {
+		width: 130px;
+		font-size: 12px;
+	}
+	.btn {
+		width: 90px;
+		height: 40px;
+		font-size: 12px;
+	}
 }

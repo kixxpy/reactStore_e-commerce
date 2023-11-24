@@ -21,7 +21,28 @@
 .item {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
 	grid-column-gap: 30px;
 	grid-row-gap: 30px;
+}
+@media only screen and (max-width: 1279px) {
+	.new_collection {
+		padding: 20px 10px;
+	}
+	.item {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 30px;
+		grid-row-gap: 30px;
+	}
+}
+@media only screen and (max-width: 765px) {
+	.item {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+@media only screen and (max-width: 599px) { 
+	.new_collection h1 {
+		font-size: 20px;
+	}
 }

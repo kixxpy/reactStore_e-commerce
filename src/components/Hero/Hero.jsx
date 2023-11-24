@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Heros.module.css';
 import women from '../assets/women-cbcb.png';
-import {Button} from '../Button/Button';
 
 export const Hero = () => {
 	return (
@@ -16,7 +15,7 @@ export const Hero = () => {
 					<p>collection</p>
 					<p>for everyone</p>
 				</div>
-				<Button text={'Latest Collection'} />
+				<button className={styles.btn} onClick={() => window.scrollTo(0,2270)}>Latest Collection</button>
 			</div>
 			<div className={styles.right}>
 				<img src={women} alt="women" />

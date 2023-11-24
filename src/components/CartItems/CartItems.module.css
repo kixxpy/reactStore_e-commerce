@@ -67,14 +67,14 @@
 	height: 60px;
 	outline: none;
 	border: none;
-	background: var(--red);
+	background: var(--green);
 	color: var(--white);
 	font-size: 16px;
 	font-weight: 600;
 	cursor: pointer;
 }
 .cartitems_total button:hover {
-	background: var(--red-hover);
+	background: var(--green-hover);
 }
 .promocode {
 	flex: 1;
@@ -94,10 +94,11 @@
 	border: none;
 	outline: none;
 	padding: 15px;
-	background: var(--light-grey);
+	background: var(--white);
 	font-size: 16px;
 	width: 230px;
 	height: 58px;
+	border: 1px solid var(--grey);
 }
 .promobox button {
 	border: none;

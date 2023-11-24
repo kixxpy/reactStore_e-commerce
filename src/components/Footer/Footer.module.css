@@ -4,8 +4,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 20px;
-	padding: 20px 0; 
+	gap: 30px;
+	padding: 50px 0; 
 	background: var(--black);
 }
 .link {
@@ -46,4 +46,29 @@
 .copyright p {
 	color: var(--white);
 	font-size: 18px;
+}
+@media only screen and (max-width: 765px) {
+	.link {
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 599px) { 
+	.footer {
+		gap: 20px;
+	}
+	.link {
+		gap: 10px;
+		font-size: 14px;
+	}
+	.copyright p {
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 419px) {
+	.footer {
+		padding: 20px 0;
+	}
+	.link {
+		flex-direction: column;
+	}
 }

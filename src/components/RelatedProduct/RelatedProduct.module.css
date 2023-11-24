@@ -7,15 +7,15 @@
 	gap: 10px;
 }
 .relatedproduct h1 {
-	color: var(--black);
+	color: var(--grey);
 	font-size: 50px;
 	font-weight: 600;
 }
 .relatedproduct hr {
 	width: 200px;
-	height: 6px;
+	height: 3px;
 	border-radius: 10px;
-	background: var(--red);
+	background: var(--green);
 }
 .item {
 	margin-top: 50px;

@@ -5,6 +5,7 @@ import { Popular } from '../components/Popular/Popular.jsx';
 import { Offers } from '../components/Offers/Offers.jsx';
 import { NewCollections } from '../components/NewCollections/NewCollections.jsx';
 import { NewsLetter } from '../components/NewsLetter/NewsLetter.jsx';
+import { IntsaBlock } from '../components/IntsaBlock/IntsaBlock.jsx';
 
 import '../index.css';
 
@@ -18,6 +19,7 @@ export const Shop = () => {
 			<Offers />
 			<NewCollections />
 			<NewsLetter />
+			<IntsaBlock />
 		</div>
 	);
 };

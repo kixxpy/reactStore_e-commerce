@@ -25,3 +25,23 @@
 	transform: scale(1.030);
 	box-shadow: rgba(155, 165, 149, 0.2) 0px 8px 24px;
 }
+@media only screen and (max-width: 599px) { 
+	.item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.item img{
+		width: 288px;
+	}
+}
+@media only screen and (max-width: 419px){
+	.item p {
+		font-size: 14px;
+	}
+	.item {
+		width: 200px;
+		transition: all 0.3s ease-in-out;
+	}
+}
