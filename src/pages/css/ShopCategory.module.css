@@ -32,7 +32,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 150px auto;
+	margin: 120px auto;
 	width: 223px;
 	height: 69px;
 	border-radius: 8px;
@@ -41,4 +41,60 @@
 	font-size: 18px;
 	font-weight: 500;
 	cursor: pointer;
+}
+@media only screen and (max-width: 1279px) {
+	.shop_category img {
+		max-width: 1200px;
+	}
+}
+@media only screen and (max-width: 1199px) {
+	.shop_category img {
+		max-width: 992px;
+	}
+	.products {
+		grid-template-columns: 1fr 1fr;
+	}
+	.loarmore {
+		margin: 100px auto;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.shop_category img {
+		max-width: 768px;
+	}
+	.products {
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+	}
+}
+@media only screen and (max-width: 765px) {
+	.shop_category img {
+		max-width: 600px;
+	}
+	.products {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+		padding: 0px 20px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.shop_category img {
+		max-width: 420px;
+	}
+	.index_sort {
+		margin: 30px 20px;
+	}
+	.index_sort {
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 419px) {
+	.shop_category img {
+		max-width: 320px;
+	}
+	.sort {
+		padding: 0 20px;
+	}
 }

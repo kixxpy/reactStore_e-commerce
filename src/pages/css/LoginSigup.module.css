@@ -66,3 +66,48 @@
 	font-size: 18px;
 	font-weight: 500;
 }
+@media only screen and (max-width: 599px) {
+	.loginsiup {
+		background: var(--white);
+		padding: 40px 20px;
+	}
+	.container {
+		width: 380px;
+		height: 450px;
+		padding: 20px 30px;
+	}
+	.container h1 {
+		font-size: 21px;
+		margin: 10px 0;
+	}
+	.fields {
+		gap: 15px;
+		margin-top: 15px;
+	}
+	.fields input {
+		height: 48px;
+		font-size: 14px;
+	}
+	.container button {
+		margin-top: 15px;
+		height: 48px;
+		font-size: 16px;
+	}
+	.login {
+		font-size: 14px;
+	}
+	.agree {
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 419px) {
+	.loginsiup {
+		padding: 20px 10px;
+	}
+	.container {
+		width: 300px;
+	}
+	.agree {
+		margin-top: 15px;
+	}
+}
